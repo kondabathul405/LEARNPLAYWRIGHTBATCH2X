@@ -1,22 +1,34 @@
 # Learn Playwright Batch 2x
 
-A hands-on repository for learning **Playwright** with **JavaScript** fundamentals. Covers core Playwright basics, JavaScript concepts, variables, scoping, hoisting, functions, identifiers, literals, and more.
+A hands-on repository for learning **Playwright** with **JavaScript** fundamentals. Covers core Playwright basics, JavaScript concepts, variables, scoping, hoisting, functions, identifiers, literals, operators, conditionals, switch statements, loops, and more.
 
 ## Contents
 
 | Chapter | Topic | Files |
 |---------|-------|-------|
 | 1 | Playwright Basics | `01_Basics.js`, `02_JS.js`, `03_Verify_setup.js`, `04_Hotcode.js`, `05_JS_Basics.js` |
-| 2 | JavaScript Concepts | *(empty)* |
+| 2 | JavaScript Concepts | *(placeholder)* |
 | 3 | Identifiers & Literals | `06_Identifier_Rules.js`, `07_identifier_part2.js` |
-| 4 | JavaScript Basics | `09_var_let_const.js`, `10_functions.js`, `11-var_explained.js`, `12_let_loved.js`, `13_const_explained.js`, `14_var_function_scope.js`, `15_let_scope.js`, `16_Hosting.js`, `17_hoisting_function.js` |
-| - | Comments | `08_comments.js` |
+| 4 | JavaScript Basics | `08_comments.js` – `21_jr_QA.js` (var, let, const, functions, scoping, hoisting) |
+| 5 | Literals | `22_literal.js` – `29_Backtick_single_double.js` (null, undefined, strings, template literals) |
+| 6 | Operators | `30_Operator.js` – `47_Advanced_ic_De_op.js` (arithmetic, comparison, logical, ternary, nullish, increment/decrement) |
+| 7 | If / Else | `48_IF_ELSE.js` – `58_Leapyear.js` (conditionals, grade calculator, leap year) |
+| 8 | Switch Statements | `59_switch.js` – `67_IQ4.js` (switch, grouping, real-time examples) |
+| 9 | User Input | `68_Usernput.js` |
+| 10 | Loops | `71_For_Loop.js` – `78_do_whils.js` (for, for-of, for-in, forEach, while, do-while) |
+| - | Tasks (18th May) | `if_else_even_odd.js`, `max_num2_turnary_operator.js`, `max_num3_turnury_operator.js`, `take marks_0_100.js` |
 
-## Chapter Details
+## Topics Covered
 
-- **Chapter 1** – Introduction to Playwright: setup, verification, hot-code reload, and basic JavaScript integration.
-- **Chapter 3** – JavaScript identifiers, naming rules, and literal types.
-- **Chapter 4** – Deep dive into `var`, `let`, `const`, functions, scoping (`function` vs `block`), and hoisting concepts.
+- **Playwright setup & basics** – installation, verification, hot-code reload
+- **JavaScript identifiers** – naming rules, literals
+- **Variables & scoping** – `var`, `let`, `const`, function scope, block scope
+- **Hoisting** – variable and function hoisting
+- **Data types & literals** – null, undefined, strings, template literals
+- **Operators** – arithmetic, modulus, exponent, comparison (strict/loose), logical, string concatenation, ternary, nullish coalescing, increment/decrement
+- **Conditional statements** – `if`, `else if`, `else`, switch with grouping and break behavior
+- **Loops** – `for`, `for...of`, `for...in`, `forEach`, `while`, `do...while`
+- **Real-world exercises** – grade calculator, leap year checker, max-of-three, even/odd
 
 ## Setup
 
