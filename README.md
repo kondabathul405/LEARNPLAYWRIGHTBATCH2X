@@ -15,7 +15,8 @@ A hands-on repository for learning **Playwright** with **JavaScript** fundamenta
 | 7 | If / Else | `48_IF_ELSE.js` – `58_Leapyear.js` (conditionals, grade calculator, leap year) |
 | 8 | Switch Statements | `59_switch.js` – `67_IQ4.js` (switch, grouping, real-time examples) |
 | 9 | User Input | `68_Usernput.js` |
-| 10 | Loops | `71_For_Loop.js` – `78_do_whils.js` (for, for-of, for-in, forEach, while, do-while) |
+| 10 | Loops | `71_For_Loop.js` – `82_IQ.js` (for, for-of, for-in, forEach, while, do-while, interview Q&A) |
+| 11 | Arrays | `83_Arrays.js` – `90_Iterate.js` (create, access, add/remove, search, iterate) |
 | - | Tasks (18th May) | `if_else_even_odd.js`, `max_num2_turnary_operator.js`, `max_num3_turnury_operator.js`, `take marks_0_100.js` |
 
 ## Topics Covered
