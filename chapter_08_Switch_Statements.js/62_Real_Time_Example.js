@@ -1,0 +1,13 @@
+let responsecode = 200;
+
+switch(responsecode){
+    case 200:
+        console.log("200 Ok");
+        break;
+    case 404:
+        console.log("404 Not found");
+        break;
+    default:
+        console.log("Not stauscode match");        
+
+}

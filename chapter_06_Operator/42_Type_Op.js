@@ -1,0 +1,5 @@
+console.log(typeof "hello");
+console.log(typeof 123);
+console.log(typeof 34.5);
+
+console.log(typeof []);
