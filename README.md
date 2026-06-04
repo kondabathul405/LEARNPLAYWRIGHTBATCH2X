@@ -17,6 +17,8 @@ A hands-on repository for learning **Playwright** with **JavaScript** fundamenta
 | 9 | User Input | `68_Usernput.js` | prompt(), type conversion, even/odd check |
 | 10 | Loops | `71_For_Loop.js` – `82_IQ.js` | for, while, do-while, continue, interview Q&A |
 | 11 | Arrays | `83_Arrays.js` – `95_Array_checking.js` | Create, access, modify, splice/slice, search, iterate, map/filter/reduce, sort, concat, validation |
+| 12 | Functions | `96_functions.js` – `112_IQ.js` | Declarations, expressions, arrows, params/return, default params, interview Q&A |
+| 13 | Strings | `118_strings.js` – `120_search_check.js` | Creation, properties (.length, .at(), .charAt()), search/check methods |
 | - | Tasks (18th May) | 4 files | Even/odd, max-of-two, max-of-three, grade calculation |
 
 ## Detailed File Listing
@@ -151,6 +153,29 @@ A hands-on repository for learning **Playwright** with **JavaScript** fundamenta
 | `94_concat_array.js` | concat() |
 | `95_Array_checking.js` | Array.isArray(), every(), some() |
 
+### Chapter 12 — Functions
+| File | Description |
+|------|-------------|
+| `96_functions.js` | Basic function declaration and call |
+| `97_Functions_Fn_Basic.js` | Function returning undefined (no return) |
+| `98_Function_with_param_No_return_type.js` | Function with parameter, no return |
+| `99_Type3_Withou_param_return_type.js` | Function without parameter, with return |
+| `100_Type4_Function_Wit_param_With_return_type.js` | Function with parameter and return |
+| `101_Template_Literal.js` | Function using template literals |
+| `102_Fn_Expression.js` | Function expression assigned to variable |
+| `103_Arrow_Fn.js` | Arrow functions: concise syntax, implicit return |
+| `104_Arrow_Fn_Real.js` | Real-world arrow: status code validator |
+| `106_Default_Param_Fn.js` | Default parameters |
+| `107_IQ.js` | Interview question involving functions |
+| `112_IQ.js` | Another function interview question |
+
+### Chapter 13 — Strings
+| File | Description |
+|------|-------------|
+| `118_strings.js` | String creation, quotes, template literals, multi-line |
+| `119_String_properties.js` | .length, bracket index, .at(), .charAt(), .charCodeAt() |
+| `120_search_check.js` | String search/check methods |
+
 ### Tasks (18th May)
 | File | Description |
 |------|-------------|
@@ -175,6 +200,8 @@ A hands-on repository for learning **Playwright** with **JavaScript** fundamenta
 - **User input** – `prompt()`, type conversion
 - **Loops** – `for`, `while`, `do-while`, `continue`, infinite loops
 - **Arrays** – creation, access (bracket, `.at()`), modification, push/pop/unshift/shift, splice/slice, concat, sort, searching (indexOf, includes, find, findIndex), iteration (for, for...of, forEach, for...in, entries), transformation (map, filter, reduce), validation (isArray, every, some)
+- **Functions** – declarations, expressions, arrow functions, default parameters, return types
+- **Strings** – creation, template literals, length, index access, .at(), .charAt(), .charCodeAt(), search/check methods
 - **Real-world exercises** – grade calculator, leap year checker, max-of-three, even/odd, API status codes, login access control
 
 ## Setup
