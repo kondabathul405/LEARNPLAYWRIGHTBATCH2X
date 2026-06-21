@@ -18,8 +18,11 @@ A hands-on repository for learning **Playwright** with **JavaScript** fundamenta
 | 10 | Loops | `71_For_Loop.js` – `82_IQ.js` | for, while, do-while, continue, interview Q&A |
 | 11 | Arrays | `83_Arrays.js` – `95_Array_checking.js` | Create, access, modify, splice/slice, search, iterate, map/filter/reduce, sort, concat, validation |
 | 12 | Functions | `96_functions.js` – `112_IQ.js` | Declarations, expressions, arrows, params/return, default params, interview Q&A |
-| 13 | Strings | `118_strings.js` – `120_search_check.js` | Creation, properties (.length, .at(), .charAt()), search/check methods |
-| - | Tasks (18th May) | 4 files | Even/odd, max-of-two, max-of-three, grade calculation |
+| 13 | Strings | `118_strings.js` – `123.SC.js` | Creation, properties, search/check, substring/slice, type coercion |
+| 14 | Objects | `124_Objects.js` – `137_let_const_obj.js` | Creation, reference vs primitive, destructuring, spread, get/set, static methods |
+| 15 | 2D Array | `138_2D_Array.js` – `142_Right_pattern_py.js` | Nested arrays, matrix iteration, real-world test data, functional programming |
+| 16 | Callback | `143_callback.js` – `150_CB_hell.js` | Named/anonymous/arrow callbacks, async (setTimeout), sync (forEach), callback hell |
+| - | Tasks (18th May) | 5 files | Even/odd, max-of-two, max-of-three, grade calculation, reverse pyramid |
 
 ## Detailed File Listing
 
@@ -175,6 +178,48 @@ A hands-on repository for learning **Playwright** with **JavaScript** fundamenta
 | `118_strings.js` | String creation, quotes, template literals, multi-line |
 | `119_String_properties.js` | .length, bracket index, .at(), .charAt(), .charCodeAt() |
 | `120_search_check.js` | String search/check methods |
+| `121_Substring.js` | slice(), substring(), negative indexing, includes() |
+| `123.SC.js` | String/Number coercion, toString(), parseInt(), parseFloat() |
+
+### Chapter 14 — Objects
+| File | Description |
+|------|-------------|
+| `124_Objects.js` | Object creation, properties, array vs object reference |
+| `125_Objects2.js` | JS vs JSON keys, reference assignment, mutation |
+| `126_Objects_Creation.js` | Object comparison by reference |
+| `127_Objects_Real.js` | Config object, dynamic add/delete properties |
+| `128_primitive_Reference.js` | Primitive vs reference behavior |
+| `129_obj_Example.js` | JSON-style vs JS-style keys |
+| `130_IQ.js` | Dynamic property access, bracket notation, descriptors |
+| `131_Object_Fn.js` | Objects with methods (calculator) |
+| `132_Object_Decon.js` | Destructuring, renaming, defaults, nested destructuring |
+| `133_spead.js` | Spread operator for copying/modifying objects |
+| `134_Objects_GET_SET_methods.js` | Getter/setter methods |
+| `135_IQ.js` | Object.keys(), Object.values(), Object.entries(), for...in |
+| `136_Object_Real.js` | Test config objects (ENV, expected responses) |
+| `137_let_const_obj.js` | let vs const with object mutation |
+
+### Chapter 15 — 2D Array
+| File | Description |
+|------|-------------|
+| `138_2D_Array.js` | 3x3 matrix grid with nested for loops |
+| `139_2D.js` | Row/column length, element access |
+| `140_REAL.js` | Test data matrix, for...of, forEach iteration |
+| `141_2D_Array_Fn.js` | map + reduce for row sums, ragged arrays |
+| `142_Right_pattern_py.js` | Star pyramid pattern with nested loops |
+| `testdata.csv` | CSV test data for login testing |
+
+### Chapter 16 — Callback
+| File | Description |
+|------|-------------|
+| `143_callback.js` | Named, anonymous, arrow callbacks |
+| `144_CB.js` | Minimal Playwright-like test callback |
+| `145_CB_Fn.js` | Real-world cafe analogy callbacks |
+| `146_PW_CB.js` | Simulated Playwright test callback |
+| `147_JS_CB.js` | Async callbacks with setTimeout() |
+| `148_Sync_CB.js` | Synchronous callback with forEach() |
+| `149_Async.CB.js` | Async callback with setTimeout() |
+| `150_CB_hell.js` | Callback hell — nested setTimeout E2E login flow |
 
 ### Tasks (18th May)
 | File | Description |
@@ -183,6 +228,7 @@ A hands-on repository for learning **Playwright** with **JavaScript** fundamenta
 | `max_num2_turnary_operator.js` | Max of two numbers (ternary) |
 | `max_num3_turnury_operator.js` | Max of three numbers (nested ternary) |
 | `take marks_0_100.js` | Grade calculation |
+| `reversepyramid.js` | Reverse star pyramid pattern |
 
 ## Topics Covered
 
@@ -201,14 +247,41 @@ A hands-on repository for learning **Playwright** with **JavaScript** fundamenta
 - **Loops** – `for`, `while`, `do-while`, `continue`, infinite loops
 - **Arrays** – creation, access (bracket, `.at()`), modification, push/pop/unshift/shift, splice/slice, concat, sort, searching (indexOf, includes, find, findIndex), iteration (for, for...of, forEach, for...in, entries), transformation (map, filter, reduce), validation (isArray, every, some)
 - **Functions** – declarations, expressions, arrow functions, default parameters, return types
-- **Strings** – creation, template literals, length, index access, .at(), .charAt(), .charCodeAt(), search/check methods
-- **Real-world exercises** – grade calculator, leap year checker, max-of-three, even/odd, API status codes, login access control
+- **Strings** – creation, template literals, length, index access, .at(), .charAt(), .charCodeAt(), search/check methods, substring/slice, type coercion
+- **Objects** – creation, reference vs primitive, dynamic properties, destructuring, spread operator, get/set, Object.keys/values/entries, config objects
+- **2D Arrays** – nested loops, matrix iteration, real-world test data, ragged arrays, functional programming (map/reduce)
+- **Callbacks** – named/anonymous/arrow callbacks, synchronous (forEach), asynchronous (setTimeout), callback hell
+- **Playwright testing** – test setup with `@playwright/test`, browser projects (Chromium/Firefox/WebKit), CI pipeline with GitHub Actions
+- **Real-world exercises** – grade calculator, leap year checker, max-of-three, even/odd, API status codes, login access control, star pyramid patterns
 
 ## Setup
 
 1. Clone the repo
-2. Install dependencies: `npm install`
-3. Run tests: `npx playwright test`
+2. Install dependencies: `npm ci`
+3. Install Playwright browsers: `npx playwright install --with-deps`
+4. Run tests: `npx playwright test`
+5. View test report: `npx playwright show-report`
+
+## CI/CD
+
+This project includes a GitHub Actions workflow (`.github/workflows/playwright.yml`) that automatically runs tests on every push and pull request to `main`/`master`. It installs dependencies, Playwright browsers, executes all tests, and uploads the HTML report as an artifact.
+
+## Project Structure
+
+```
+├── .github/workflows/   # CI/CD pipeline
+├── chapter_*             # JS concept chapters (1–16)
+│   ├── chapter_13_strings/
+│   ├── chapter_14_Objects/
+│   ├── chapter_15_2D_Array/
+│   └── chapter_16_Callback/
+├── task18th_may/         # Coding exercises
+├── tests/                # Playwright test specs
+├── .gitignore
+├── package.json
+├── playwright.config.ts
+└── README.md
+```
 
 ## Resources
 
